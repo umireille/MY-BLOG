@@ -1,0 +1,63 @@
+.singlePost{
+    flex: 9;
+}
+
+.singlePostWrapper{
+    padding: 20px;
+    padding-right: 0;
+}
+
+.singlePostImg{
+    width: 40%;
+    height: 350px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.singlePostTitle{
+  
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+.singlePostEdit{
+  float: right; 
+  font-size: 16px; 
+}
+
+.singlePostIcon{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.singlePostIcon:first-child{
+    color: teal;
+}
+.singlePostIcon:last-child{
+    color:red;
+}
+
+.singlePostInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2px;
+   
+}
+
+.singlePostDesc{
+    color: #666;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+.comment{
+    position: absolute;
+    top: 550px;
+    padding: 30px;
+    border-radius: 10px;
+    width: 30vw;
+    font-size: 20px;
+    
+}

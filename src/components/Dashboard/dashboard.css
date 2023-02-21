@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.blogs{
+    position: absolute;
+    top: 210px;
+    left: 110px;
+   
+
+}
+
+.tbl{
+
+    margin-left: 200px;
+    margin-right: -100px;
+
+}
+.img-p{
+    padding: 20px;
+    width: 350px;
+    height: 210px;
+}
+.singlePostIcon{
+ padding: 5px;
+}
+table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+tr{
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

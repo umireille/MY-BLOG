@@ -1,0 +1,62 @@
+.card{
+
+    justify-content: space-between;
+    align-items: center;
+    background:gray;
+    padding: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .login{
+    background-image: url("../../img/01.jpg");
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.loginTitle{
+ font-size: 50px; 
+ 
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label {
+    margin: 10px  ;
+}
+
+.loginForm>input{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.loginSignupButton{
+    /* position: absolute;
+    top: 60px;
+    right: 20px; */
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+      
+}

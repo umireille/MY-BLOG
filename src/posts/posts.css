@@ -1,0 +1,12 @@
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.posts_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.5rem;
+    
+}

@@ -1,0 +1,24 @@
+.dashside{
+    background-color:black;
+    width: 15vw;
+    height: 700px;
+
+    margin-top: 0;
+    padding: 0;
+    margin-top: 1px;
+    margin-left:0;
+}
+.dash_list ul{
+    padding: 35px;
+}
+.dash_list li{
+    list-style: none;
+    line-height: 40px;
+    font-size: 25px;
+
+}
+.dash_list li:hover{
+color:white;
+width: 110px;
+cursor: pointer;
+}
