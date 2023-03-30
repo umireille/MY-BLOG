@@ -22,7 +22,7 @@ export default function Posts({blogs}) {
         <div className="postCats">
 
         </div>
-        <Link to={`${blog._id}`}><span className="postTitle" style={{color:"lightblue",textDecoration:"none"}}>{blog.title}</span></Link>
+        <Link to={`${blog._id}`}><span className="postTitle" style={{color:"black",textDecoration:"none"}}>{blog.title}</span></Link>
 
     </div>
     <p className="postDesc">{blogs.description}  </p>
@@ -30,7 +30,7 @@ export default function Posts({blogs}) {
 
     </div>
     <button className="postReadButton" >
-    <Link to={`${blog._id}`}>Readmore</Link> </button>
+    <Link to={`${blog._id}`}style={{textDecoration:"none",color:"white"}}>Readmore</Link> </button>
     </div>
    
     </div>
